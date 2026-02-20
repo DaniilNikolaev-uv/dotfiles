@@ -112,7 +112,7 @@
 #waybar.main #clock,
 #waybar.main #language,
 #waybar.main #window,
-#waybar.main #battery {
+#waybar.main #custom-battery {
     padding-left: 8pt;
     padding-right: 8pt;
 }
@@ -124,7 +124,7 @@
 
 #waybar.main #language,
 #waybar.main #backlight,
-#waybar.main #battery {
+#waybar.main #custom-battery {
     color: @misc;
     background: @background1;
 }

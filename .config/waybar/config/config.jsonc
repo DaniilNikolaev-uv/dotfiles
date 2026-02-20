@@ -22,18 +22,16 @@
           "clock",
           "hyprland/language",
           "backlight",
-          "battery",
+          "custom/battery",
       ],
 
-      "battery": {
+      "custom/battery": {
           "interval": 30,
-          "bat": "BAT1",
-          "adapter": "AC",
-          "format": "{icon} {capacity}%",
-          "format-icons": ["󰂃", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
-          "format-charging": "󰂄 {capacity}%",
-          "format-full": "󰚥 {capacity}%",
-          "tooltip-format": "{capacity}%\n{status}",
+          "return-type": "json",
+          "exec": "~/.config/waybar/scripts/battery.sh",
+          "format": "{text}",
+          "tooltip": true,
+          "tooltip-format": "{alt}",
       },
 
       "backlight": {
