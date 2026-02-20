@@ -21,3 +21,9 @@
 - redact a screenshot (like in omarchy)
 - screensaver
 - pacman-animtion
+
+
+----
+## Funny stuff (maybe add)
+
+- webcamize
