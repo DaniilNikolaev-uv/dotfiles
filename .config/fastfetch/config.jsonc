@@ -1,0 +1,101 @@
+// Fastfetch config — Catppuccin Mocha
+// ~/.config/fastfetch/config.jsonc
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  "logo": {
+    "type": "auto",
+    "padding": {
+      "top": 1,
+      "left": 2,
+      "right": 2
+    }
+  },
+
+  "display": {
+    "separator": "  ",
+    "color": {
+      "keys": "35",       // Mauve (purple)
+      "title": "34",      // Blue
+      "separator": "90"   // Gray
+    },
+    "key": {
+      "width": 12
+    }
+  },
+
+  "modules": [
+    // ── Заголовок ─────────────────────────────────────────
+    "title",
+    "separator",
+
+    // ── OS / Kernel / Uptime ──────────────────────────────
+    {
+      "type": "os",
+      "key": "  OS",
+      "keyColor": "35"
+    },
+    {
+      "type": "kernel",
+      "key": "  Kernel",
+      "keyColor": "35"
+    },
+    {
+      "type": "uptime",
+      "key": "  Uptime",
+      "keyColor": "35"
+    },
+    "break",
+
+    // ── CPU / GPU / RAM ───────────────────────────────────
+    {
+      "type": "cpu",
+      "key": "  CPU",
+      "keyColor": "33",
+      "temp": true,
+      "showPeCoreCount": true
+    },
+    {
+      "type": "gpu",
+      "key": "  GPU",
+      "keyColor": "33",
+      "temp": true
+    },
+    {
+      "type": "memory",
+      "key": "  RAM",
+      "keyColor": "33"
+    },
+    "break",
+
+    // ── DE / WM / Terminal / Shell ────────────────────────
+    {
+      "type": "de",
+      "key": "  DE",
+      "keyColor": "32"
+    },
+    {
+      "type": "wm",
+      "key": "  WM",
+      "keyColor": "32"
+    },
+    {
+      "type": "terminal",
+      "key": "  Terminal",
+      "keyColor": "32"
+    },
+    {
+      "type": "shell",
+      "key": "  Shell",
+      "keyColor": "32"
+    },
+    "break",
+
+    // ── Цветовая палитра ──────────────────────────────────
+    {
+      "type": "colors",
+      "paddingLeft": 2,
+      "symbol": "circle"
+    }
+  ]
+}

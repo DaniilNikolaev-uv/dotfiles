@@ -13,7 +13,7 @@
 - hyprlock ✅
 - install script
 - test install script
-- maybe swap hyprpanel
+- maybe swap hyprpanel ✅
 - fastfetch
 - switch rofi to walker ✅
 - wallpaper switch to walker✅
