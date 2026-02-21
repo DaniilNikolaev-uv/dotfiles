@@ -16,7 +16,7 @@
 - maybe swap hyprpanel
 - fastfetch
 - switch rofi to walker ✅
-- wallpaper switc i walker
+- wallpaper switch to walker✅
 - emoji picker ✅(50/50)
 - chaoric aur
 - redact a screenshot (like in omarchy)
