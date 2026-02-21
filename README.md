@@ -17,10 +17,11 @@
 - fastfetch✅
 - switch rofi to walker ✅
 - wallpaper switch to walker✅
-- emoji picker  (swap to walker)
+- emoji picker  (swap to walker)✅
 - redact a screenshot (like in omarchy) ✅
 - screensaver ✅
 - pacman-animtion ✅
+- color-picker 
 
 
 ----
