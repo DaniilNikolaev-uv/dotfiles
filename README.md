@@ -14,14 +14,13 @@
 - install script
 - test install script
 - maybe swap hyprpanel ✅
-- fastfetch
+- fastfetch✅
 - switch rofi to walker ✅
 - wallpaper switch to walker✅
-- emoji picker ✅(50/50)
-- chaoric aur
-- redact a screenshot (like in omarchy)
-- screensaver
-- pacman-animtion
+- emoji picker  (swap to walker)
+- redact a screenshot (like in omarchy) ✅
+- screensaver ✅
+- pacman-animtion ✅
 
 
 ----
