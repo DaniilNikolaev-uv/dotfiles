@@ -15,6 +15,7 @@ Personal dotfiles configuration for Arch Linux with Hyprland window manager.
 - [ ] install script
 - [ ] test install script
 - [ ] color-picker
+- [ ] notifications
 
 ### Completed ✅
 - [x] hyprlock
