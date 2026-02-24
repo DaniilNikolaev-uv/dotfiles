@@ -27,6 +27,7 @@ Personal dotfiles configuration for Arch Linux with Hyprland window manager.
 - [x] redact a screenshot (like in omarchy)
 - [x] screensaver
 - [x] pacman-animation
+- [x] color-picker
 
 ---
 
