@@ -71,7 +71,7 @@
     "tooltip-format-disconnected": "Disconnected",
     "interval": 3,
     "spacing": 1,
-    "on-click":"hyprctl dispatch exec '[float;size 80% 80%] kitty -e bluetui'"
+    "on-click":"hyprctl dispatch exec '[float;size 80% 80%] kitty -e impala'"
 
   },
   "battery": {
