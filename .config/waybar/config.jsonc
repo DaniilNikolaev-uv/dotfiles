@@ -71,7 +71,8 @@
     "tooltip-format-disconnected": "Disconnected",
     "interval": 3,
     "spacing": 1,
-    "on-click": "omarchy-launch-wifi"
+    "on-click":"hyprctl dispatch exec '[float;size 80% 80%] kitty -e bluetui'"
+
   },
   "battery": {
     "format": "{capacity}% {icon}",
@@ -99,11 +100,11 @@
     "format-connected": "󰂱",
     "format-no-controller": "",
     "tooltip-format": "Devices connected: {num_connections}",
-    "on-click": "omarchy-launch-bluetooth"
+    "on-click": "hyprctl dispatch exec '[float;size 80% 80%] kitty -e bluetui'"
   },
   "pulseaudio": {
     "format": "{icon}",
-    "on-click": "omarchy-launch-audio",
+    "on-click":"hyprctl dispatch exec '[float;size 80% 80%] kitty -e wiremix'",
     "on-click-right": "pamixer -t",
     "tooltip-format": "Playing at {volume}%",
     "scroll-step": 5,
