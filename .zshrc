@@ -21,3 +21,10 @@ alias la='lsd -a'
 alias lla='lsd -la'
 alias lt='lsd --tree'
 alias ls='lsd'
+
+# bun completions
+[ -s "/home/lilwasd/.bun/_bun" ] && source "/home/lilwasd/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
